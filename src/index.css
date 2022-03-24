@@ -1,0 +1,23 @@
+.Parent-container{
+  margin: 100px auto;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.Parent-container .count{
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+}
+.singleRect{
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  background-color: #fff;
+  cursor: pointer;
+}
+.singleRect.isOpen{
+  background-color: #000;
+}
